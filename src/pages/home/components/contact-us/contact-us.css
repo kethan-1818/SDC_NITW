@@ -1,0 +1,130 @@
+.contact-container {
+    max-width: 920px;
+    width: 80%;
+    margin: 15rem auto;
+    padding: 1rem 0;
+    font-size: 16px;
+    color: #333333;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    position: relative;
+    margin-top: 400px; /* Add margin to separate from slider */
+    margin-bottom: 70px; /* Add margin to separate from slider */
+  
+  }
+  
+  .contact-container p {
+    margin: 1rem 0;
+  }
+  
+  .contact-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2185dd;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .contact-header h1 {
+    margin: 1rem;
+    padding: 0.5rem 2rem;
+    font-size: 36px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .contact-content {
+    padding: 1rem 2rem;
+  }
+  
+  .icon-list {
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .icon-list .link {
+    display: inline-block;
+    margin: 0 1rem 1rem 0;
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .icon-list .link:hover {
+    width: 150px;
+  }
+  
+  .icon-list .link .circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #2196f3;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .icon-list .link:hover .circle {
+    background-color: #ff9e3d;
+  }
+  
+  .icon-list .link .circle .icon {
+    font-size: 18px;
+    color: #ffffff;
+  }
+  
+  .icon-list .link span {
+    margin-left: 1rem;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333333;
+  }
+  
+  a#form {
+    color: #ff9e3d;
+    padding: 5px;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  a#form:hover {
+    color: #2196f3;
+  }
+  
+  @media only screen and (max-width: 960px) {
+    .contact-container {
+      width: 90%;
+    }
+  }
+  
+  @media only screen and (max-width: 760px) {
+    .contact-header {
+      padding: 0;
+    }
+  
+    .contact-content {
+      padding: 0;
+    }
+    .contact-container {
+      margin-top: -120px;
+      margin-bottom: -50px;
+    }    
+
+  }
+  
+  @media only screen and (max-width: 548px) {
+    .contact-header h1 {
+      font-size: 24px;
+    }
+    .contact-container {
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+  }
+  

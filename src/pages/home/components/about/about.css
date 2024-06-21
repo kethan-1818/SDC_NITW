@@ -1,0 +1,48 @@
+.slider-container {
+	width: 90%; /* Make width more flexible */
+	max-width: 1200px;
+	height: 30vh; /* Reduced height */
+	margin: 20px auto 40px; /* Center slider and add margin for spacing */
+	position: relative;
+  }
+  
+  .awssld__content {
+	height: 100%;
+  }
+  
+  .awssld__wrapper {
+	display: block;
+	overflow: hidden;
+	position: relative;
+	height: 100%;
+	width: 100%;
+  }
+  
+  .awssld__content > img {
+	object-fit: contain;
+	object-position: center;
+	width: 100%;
+	height: 100%;
+  }
+  
+  @media (max-width: 1024px) {
+	.slider-container {
+	  width: 95%;
+	  height: 25vh;
+	}
+  }
+  
+  @media (max-width: 768px) {
+	.slider-container {
+	  width: 100%;
+	  height: 20vh;
+	}
+  }
+  
+  @media (max-width: 480px) {
+	.slider-container {
+	  width: 100%;
+	  height: 15vh;
+	}
+  }
+  

@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+	overflow: visible;
+	margin: 0;
+	padding: 0;
+	background-color: #21262d;
+	background-size: cover;
+}
+
+header {
+	height: 8em;
+	width: auto;
+	background-color: black;
+}
+
+.content {
+	z-index: 1;
+	position: absolute;
+	top: 0px;
+	display: flex;
+	align-items: left;
+}
+
+.content h1 {
+	color: white;
+	font: 36px sans-serif;
+	font-weight: bold;
+	margin: auto 1em;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	padding: 0;
+}
+
+#active {
+	background-color: #b26910;
+}
