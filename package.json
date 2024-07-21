@@ -1,5 +1,5 @@
 {
-	"homepage": "https://kethan-1818.github.io/SDC",
+	"homepage": "https://kethan-1818.github.io/latest",
 	"name": "cs-website",
 	"version": "0.1.0",
 	"private": true,
@@ -27,10 +27,10 @@
 		"web-vitals": "^2.1.4"
 	},
 	"scripts": {
-		"predeploy": "npm run build",
-		"deploy": "gh-pages -d dist",
-		"start": "vite",
 		"build": "vite build",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages  -d build",
+		"start": "vite",
 		"preview": "vite preview",
 		"lint": "eslint --cache .",
 		"lint:fix": "eslint --cache --fix .",

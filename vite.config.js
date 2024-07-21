@@ -37,5 +37,4 @@ export default defineConfig({
 			gzipSize: true,
 		}),
 	],
-	base: '/SDC/',  
 });
