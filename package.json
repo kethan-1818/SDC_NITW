@@ -1,5 +1,5 @@
 {
-	"homepage": "https://kethan-1818.github.io/latest",
+	"homepage": "https://kethan-1818.github.io/SDC_NITW",
 	"name": "cs-website",
 	"version": "0.1.0",
 	"private": true,
@@ -29,7 +29,7 @@
 	"scripts": {
 		"build": "vite build",
 		"predeploy": "npm run build",
-		"deploy": "gh-pages  -d build",
+		"deploy": "main  -d build",
 		"start": "vite",
 		"preview": "vite preview",
 		"lint": "eslint --cache .",
